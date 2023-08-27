@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Day17-Complete Responsive Personal Portfolio Website using HTML CSS
+      JavaScript
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="rensponsive.css"
+      media="screen and (max-width: 821px)"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./AZIER.png" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav id="navbar" class="flex s-around bg-color">
+      <div class="left-nav">
+        <h2 class="t-white">Ahmad Ajir</h2>
+      </div>
+      <div class="right-nav">
+        <ul class="flex">
+          <li><a href="#home" class="t-white roboto">Home</a></li>
+          <li><a href="#about" class="t-white roboto">About</a></li>
+          <li><a href="#skills" class="t-white roboto">Skills</a></li>
+          <li><a href="#services" class="t-white roboto">Services</a></li>
+          <li><a href="#projects" class="t-white roboto">Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Bottom Navigator -->
+    <section id="bottom">
+      <div class="bottom-nav flex s-center items-center">
+        <ul class="flex s-around items-center">
+          <a href="#home"
+            ><li class="bottomo-hover flex s-center items-center">
+              <i class="fa-solid fa-house"></i></li
+          ></a>
+          <a href="#about"
+            ><li class="bottomo-hover flex s-center items-center">
+              <i class="fa-solid fa-user"></i></li
+          ></a>
+          <a href="#skills"
+            ><li class="bottomo-hover flex s-center items-center">
+              <i class="fa-solid fa-code"></i></li
+          ></a>
+          <a href="#services"
+            ><li class="bottomo-hover flex s-center items-center">
+              <i class="fa-solid fa-rocket"></i></li
+          ></a>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Home Section -->
+    <section id="home" class="flex s-around sw-80 m-auto">
+      <div class="home-left flex items-center">
+        <div class="home-content">
+          <h6 class="poppinss">Hi, I.am</h6>
+          <h1>Ahmad Ajir</h1>
+          <h4 class="poppinss">Junior Web Developer</h4>
+          <a href="#" target="_blank"
+            ><button class="btn poppinss">Resume</button></a
+          >
+          <a href="#" class="btn live poppins" id="hireme" target="_blank"
+            >Let's Talk</a
+          >
+        </div>
+      </div>
+      <div class="home-right flex s-center items-center">
+        <div class="circle flex s-center items-center" id="mainImage">
+          <img src="./foto_nobg.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h1 class="t-center my-2 t-white f-2">About Me</h1>
+      <div class="about-container flex s-around">
+        <div class="about-left flex s-center otems-center">
+          <img src="./foto_nobg.png" alt="" />
+        </div>
+
+        <div class="about-right flex">
+          <div class="about-content">
+            <h1 class="t-white m-b-1 poppins">Ahmad Ajir</h1>
+            <p class="t-white poppins">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quis,
+              doloremque unde non, assumenda beatae minima incidunt corporis
+              alias molestias dicta esse neque nobis maiores tempore aspernatur?
+              Exercitationem, sunt officiis.
+            </p>
+            <a href="#" class="btn live poppins" id="hireme"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

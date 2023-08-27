@@ -1,0 +1,11 @@
+#bottom {
+  display: flex;
+}
+
+#navbar {
+  display: none;
+}
+
+.right {
+  display: block;
+}

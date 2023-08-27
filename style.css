@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1f1f38;
+}
+
+#navbar {
+  line-height: 4rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  border-bottom: 0.5px solid #ffffff52;
+  border-width: 80%;
+  margin-bottom: 1rem;
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar ul li {
+  margin: 0px 1rem;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  padding: 0.5rem 0.9rem;
+}
+
+.right {
+  display: none;
+}
+
+.checkbtn {
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+.nav-col a:hover {
+  border-radius: 0.4rem;
+  color: #1f1f38;
+  background-color: #fff;
+}
